@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça-os Ler! - O Antídoto Digital</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #d35400; /* Laranja mais escuro para melhor contraste */
+            --accent-color: #27ae60;
+            --text-color: #333;
+            --bg-light: #f4f6f7;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 2rem 1rem;
+            text-align: center;
+            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?auto=format&fit=crop&w=1000&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 1rem;
+            display: inline-block;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+
+        section {
+            background: var(--white);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            overflow: hidden; /* Para a imagem não sair dos cantos */
+        }
+
+        /* Estilo para as novas imagens */
+        .section-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin-top: 1.5rem;
+        }
+
+        .highlight-box {
+            background-color: #e8f8f5;
+            border-left: 5px solid var(--accent-color);
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .stat-box {
+            background-color: #fef9e7;
+            border: 2px dashed #f39c12;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--secondary-color);
+            display: block;
+            line-height: 1;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 12px;
+        }
+
+        ul li:before {
+            content: "📖";
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            .stat-number { font-size: 2.5rem; }
+            nav a { margin: 0 5px; font-size: 0.9rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Faça-os Ler!</h1>
+    <p>Para não criar cretinos digitais</p>
+</header>
+
+<nav>
+    <a href="#desafio">O Desafio</a>
+    <a href="#pais">Pais</a>
+    <a href="#professores">Professores</a>
+    <a href="#ciencia">Ciência</a>
+</nav>
+
+<div class="container">
+
+    <section id="desafio">
+        <h2>O "Elefante Digital"</h2>
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80" alt="Criança em frente ao computador" class="section-image">
+        
+        <p>Vivemos uma crise silenciosa. Michel Desmurget alerta que o tempo de ecrã recreativo está a devorar o tempo de leitura, afetando o cérebro das nossas crianças.</p>
+        
+        <div class="stat-box">
+            <span class="stat-number">14x</span>
+            <p>Os adolescentes dedicam 14 vezes mais tempo aos ecrãs do que à leitura.</p>
+        </div>
+    </section>
+
+    <section id="pais">
+        <h2>👨‍👩‍👧‍👦 Para os Pais: O Hábito Começa em Casa</h2>
+        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80" alt="Mãe a ler para a criança" class="section-image">
+
+        <h3>1. Não pare de ler para eles</h3>
+        <p>Muitos pais param de ler histórias quando a criança aprende a ler na escola. <strong>Continue!</strong> A leitura partilhada cria laços e expõe a criança a histórias que ela ainda não consegue ler sozinha.</p>
+
+        <h3>2. O "Elefante Digital"</h3>
+        <p>Se quer que o seu filho leia, reduza o acesso a smartphones no quarto. O cérebro, entre o tédio e um livro, escolherá o livro. Entre o TikTok e um livro, escolherá o TikTok.</p>
+
+        <div class="highlight-box">
+            "Não use a leitura como castigo ('se não leres, não jogas'). A leitura deve ser um prazer, não uma tarefa."
+        </div>
+    </section>
+
+    <section id="professores">
+        <h2>👩‍🏫 Para os Professores: Além da Decodificação</h2>
+        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80" alt="Biblioteca escolar" class="section-image">
+
+        <h3>Cuidado com a "Degringolada do 4º Ano"</h3>
+        <p>Muitos alunos sabem juntar letras (decodificar), mas não compreendem o sentido. Quando os textos ficam complexos no 4º ano, eles falham se não tiverem vocabulário rico.</p>
+
+        <h3>Ler em Voz Alta na Sala</h3>
+        <p>Leia obras inteiras para a turma. Isso ensina a estrutura das histórias e o "modelo de situação" (o filme mental que fazemos ao ler), essencial para a compreensão.</p>
+    </section>
+
+    <section id="ciencia">
+        <h2>🧠 A Ciência da Leitura</h2>
+        <ul>
+            <li><strong>Inteligência:</strong> A leitura é o único passatempo ligado diretamente ao aumento do QI.</li>
+            <li><strong>Empatia:</strong> A ficção permite-nos "viver" outras vidas, treinando o cérebro para compreender os outros.</li>
+            <li><strong>Sucesso:</strong> Ler é a base de todas as disciplinas escolares, incluindo a Matemática.</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <h3>"Ler é um ato de resistência."</h3>
+    <p>Projeto educativo baseado na obra de Michel Desmurget</p>
+</footer>
+
+</body>
+</html>
